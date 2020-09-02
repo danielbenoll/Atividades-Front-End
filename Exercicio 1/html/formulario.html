@@ -1,0 +1,99 @@
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <table>
+            <ul>
+                <li><a href="introducao.html"> Página Inicial</a></li>
+            </ul>
+            <ul>
+                <li><a href="tabelas.html"> Tabela</a></li>
+            </ul>
+
+        </table>
+        
+        <h1>Cadastro de Cliente</h1>
+        <form action="tabelas.html">
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+            <br>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone">
+            <br>
+            
+            <label for="E-mail">E-mail:</label>
+            <input type="email" name="E-mail">
+            <br>
+            
+            <label for="Senha">Senha:</label>
+            <input type="password" name="Senha">
+            <br>
+            
+            <label for="Sexo">Sexo:</label>
+    
+            <input type="radio" name="Masculino" value="M">
+            <label for="Masculino">Masculino:</label>
+            <input type="radio" name="Feminino" value="F">
+            <label for="Feminino">Feminino:</label>
+    
+            <br>
+            <label for="UF">UF:</label>
+            <select name="UF" id="">
+                <option value="">Selecione</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+            <br>
+    
+            <label for="Cidade">Cidade:</label>
+            <select name="Cidade" id="">
+                <option value="">Selecione</option>
+                <option value="1">Ceilândia</option>
+                <option value="2">Taguatinga</option>
+                <option value="3">Guará</option>
+            </select>
+    
+            <fieldset>
+                <legend>Hobbies:</legend>
+    
+                <label for="Música">Música:</label>
+                <input type="checkbox" name="hobbies[]" id="musica" value="m">
+                <br>
+                
+                <label for="Futebol">Futebol:</label>
+                <input type="checkbox" name="hobbies[]" id="futebol" value="f">
+                <br>
+                
+                <label for="Teatro">Teatro:</label>
+                <input type="checkbox" name="hobbies[]" id="teatro" value="t">
+                <br>
+                
+                <label for="Jogos">Jogos:</label>
+                <input type="checkbox" name="hobbies[]" id="jogos" value="j">
+                <br>
+                
+                <label for="Cozinhar">Cozinhar:</label>
+                <input type="checkbox" name="hobbies[]" id="cozinhar" value="c">
+                <br>
+                
+                
+            </fieldset>
+    
+            <label for="Observação">Observação:</label>
+            <textarea name="observacao" id="observacao" cols="30" rows="10"></textarea>
+    
+            <br>
+    
+            <button type="submit">Enviar</button>
+            <button type="submit">Limpar</button>
+            <button type="submit">Voltar</button>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    margin:0;
+}
+
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left:90px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: rgb(198, 193, 218);
+    margin-left: 210px; 
+    color:black;
+}
+
+
+.footer{
+    position: fixed; 
+    background-color: rgb(128, 16, 219);
+    margin-left: 200px; 
+    color:white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.login{
+	width:90px;
+	height:40px;
+	background-color:rgb(128, 16, 219);
+    border-radius: 10px;
+    color:white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.main {
+    margin-left: 300px; 
+    margin-right: 390px; 
+}
+
+li {
+    list-style-type: none;
+    color: rgb(127, 71, 231);
+    font-size: 20px; 
+}
+.fa-html5{
+    color: rgb(245, 60, 60)
+}
+.fa-css3-alt{
+    color: rgb(40, 162, 179)
+}
+.fa-js-square{
+    color: rgb(235, 205, 41)
+}
+.fa-react{
+    color: rgb(39, 191, 202)
+}
+.fa-node{
+    color: rgb(58, 156, 33)
+}
+.fa-user{
+    width: 10px;
+    color: rgb(81, 11, 138);
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(249, 246, 255);
+    min-width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, .5);
+    padding: 20px;
+    z-index: 1;
+    right: .2rem;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.dropdown-content button {
+    font-size: 1rem;
+    width: 100%;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
